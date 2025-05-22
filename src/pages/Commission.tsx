@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import emailjs from '@emailjs/browser';
-import anthemBackground from '../assets/backgrounds/Anthem_Picture.jpg';
-import restaurantBackground from '../assets/backgrounds/Restaurant_Picture.jpg';
-import privateEventBackground from '../assets/backgrounds/PrivateEvent_Picture.jpg';
-import studioBackground from '../assets/backgrounds/Studio_Picture.jpg';
+import anthemBackground from '../../project/src/assets/backgrounds/Anthem_Picture.jpg';
+import restaurantBackground from '../../project/src/assets/backgrounds/Restaurant_Picture.jpg';
+import privateEventBackground from '../../project/src/assets/backgrounds/PrivateEvent_Picture.jpg';
+import studioBackground from '../../project/src/assets/backgrounds/Studio_Picture.jpg';
 
 // Initialize EmailJS
 emailjs.init('ZoNR1cGp0SWlmUfWo');
