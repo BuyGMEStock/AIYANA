@@ -116,6 +116,7 @@ function Commission() {
                 opacity: inView ? 1 : 0.5,
                 transition: 'all 1.2s cubic-bezier(0.16, 1, 0.3, 1)',
                 backgroundPosition: index === 0 ? 'center 25%' : 
+                                  index === 2 ? 'center 60%' : 
                                   index === 3 ? 'center 35%' : 
                                   'center',
                 backgroundSize: index === 3 ? 'contain' : 'cover',
